@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".Registration_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an account here: "
+        android:layout_gravity="start"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/etFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:hint="Fullname"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/black"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Create account"/>
+
+</LinearLayout>
