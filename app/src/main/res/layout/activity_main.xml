@@ -20,7 +20,7 @@
         android:textSize="25dp" />
 
     <EditText
-        android:id="@+id/etFullname"
+        android:id="@+id/etFirstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
@@ -28,7 +28,19 @@
         android:textColorHint="@color/black"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/black"
-        android:hint="Fullname"/>
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:hint="Last Name"/>
+
 
     <EditText
         android:id="@+id/etEmail"
@@ -53,6 +65,19 @@
         android:backgroundTint="@color/black"
         android:inputType="textPassword"
         android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"/>
+
 
 
     <com.google.android.material.button.MaterialButton
